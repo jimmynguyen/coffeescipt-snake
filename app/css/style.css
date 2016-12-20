@@ -1,0 +1,9 @@
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Andale Mono", monospace;
+}
+
+.margin-top-20px {
+    margin-top: 20px;
+}
