@@ -9,7 +9,9 @@
     "url": "https://github.com/jimmynguyen/snake.git"
   },
   "scripts": {
-    "start": "coffee -c Gruntfile.coffee && grunt"
+    "build": "coffee -c Gruntfile.coffee && grunt",
+    "start": "open http://localhost/snake/index.html",
+    "zip": "mkdir snake;mkdir snake/out;ditto index.html snake/;ditto out/app.min.* snake/out;ditto fonts snake/fonts;rm -rf snake.zip;zip -rX snake.zip snake;rm -rf snake"
   },
   "dependencies": {
     "angular": "^1.6.0",

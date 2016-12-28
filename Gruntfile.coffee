@@ -8,7 +8,12 @@ module.exports = (grunt) ->
         coffee_jshint:
             options:
                 globals: [
-                    "angular"
+                    "angular",
+                    "$",
+                    "console",
+                    "document",
+                    "alert",
+                    "window"
                 ]
             your_target: [
                 "app/src/**/*.coffee"
