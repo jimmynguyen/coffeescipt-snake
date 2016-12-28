@@ -1,4 +1,4 @@
-# JavaScript Snake
+# CoffeeScript Snake
 
 Implementation of snake written in [CoffeeScript](http://coffeescript.org/) using [AngularJS](https://angularjs.org/), [Bootstrap](http://getbootstrap.com/), and [jQuery](https://jquery.com/)
 

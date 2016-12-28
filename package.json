@@ -1,17 +1,17 @@
 {
-  "name": "snake",
+  "name": "coffeescript-snake",
   "version": "1.0.0",
-  "description": "Snake",
+  "description": "CoffeeScript Snake",
   "author": "Jimmy Nguyen",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmynguyen/snake.git"
+    "url": "https://github.com/jimmynguyen/coffeescipt-snake.git"
   },
   "scripts": {
     "build": "coffee -c Gruntfile.coffee && grunt",
-    "start": "open http://localhost/snake/index.html",
-    "zip": "mkdir snake;mkdir snake/out;ditto index.html snake/;ditto out/app.min.* snake/out;ditto fonts snake/fonts;rm -rf snake.zip;zip -rX snake.zip snake;rm -rf snake"
+    "start": "open index.html",
+    "zip": "mkdir coffeescript-snake;mkdir coffeescript-snake/out;ditto index.html coffeescript-snake/;ditto out/app.min.* coffeescript-snake/out;ditto fonts coffeescript-snake/fonts;rm -rf coffeescript-snake.zip;zip -rX coffeescript-snake.zip coffeescript-snake;rm -rf coffeescript-snake"
   },
   "dependencies": {
     "angular": "^1.6.0",
