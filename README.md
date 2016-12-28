@@ -1,10 +1,8 @@
 # JavaScript Snake
----
 
 Implementation of snake written in [CoffeeScript](http://coffeescript.org/) using [AngularJS](https://angularjs.org/), [Bootstrap](http://getbootstrap.com/), and [jQuery](https://jquery.com/)
 
 ## Getting Started
----
 
 ### Prerequisites
 
@@ -39,7 +37,7 @@ npm run zip
 ```
 
 Built With
----
+
 * [AngularJS](https://angularjs.org/) - JavaScript Framework
 * [Bootstrap](http://getbootstrap.com/) - CSS Library Plugin
 * [CoffeeScript](http://coffeescript.org/) - Programming Language
@@ -48,13 +46,13 @@ Built With
 * [NPM](https://www.npmjs.com/) - Package Manager
 
 ## Author
----
+
 Jimmy Nguyen
 
 ## License
----
+
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/jimmynguyen/snake/blob/master/LICENSE) file for details
 
 ## Acknowledgments
----
+
 Inspired by [JavaScript Snake](https://github.com/patorjk/JavaScript-Snake)
