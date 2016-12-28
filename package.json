@@ -6,7 +6,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmynguyen/coffeescipt-snake.git"
+    "url": "https://github.com/jimmynguyen/coffeescript-snake.git"
   },
   "scripts": {
     "build": "coffee -c Gruntfile.coffee && grunt",
