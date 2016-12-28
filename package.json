@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Snake",
   "author": "Jimmy Nguyen",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/jimmynguyen/snake.git"
