@@ -6,8 +6,8 @@ Implementation of snake written in [CoffeeScript](http://coffeescript.org/) usin
 
 ### Prerequisites
 
-* [NPM](https://www.npmjs.com/) - Package Manager
 * [Grunt](http://gruntjs.com/) - Task Runner
+* [NPM](https://www.npmjs.com/) - Package Manager
 
 ### Installing
 To download the needed node modules, run the following command:
