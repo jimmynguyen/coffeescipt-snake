@@ -36,7 +36,7 @@ To obtain a .zip of the bare minimum files needed to run the application, run th
 npm run zip
 ```
 
-Built With
+## Built With
 
 * [AngularJS](https://angularjs.org/) - JavaScript Framework
 * [Bootstrap](http://getbootstrap.com/) - CSS Library Plugin
