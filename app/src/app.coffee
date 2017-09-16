@@ -142,6 +142,11 @@ angular.module "app", []
 
         # keyboard controls
         defineKeyboardControls = () ->
+            preventDefault = (e) ->
+                index = [32, 37, 38, 39, 40].indexOf e.keyCode
+                if index > -1 
+                    e.preventDefault()
+            window.addEventListener "keydown", preventDefault, false
             document.onkeydown = (e) ->
                 e = e or window.event
                 if $scope.isStarted

@@ -14,9 +14,9 @@
     "zip": "mkdir coffeescript-snake;mkdir coffeescript-snake/out;ditto index.html coffeescript-snake/;ditto out/app.min.* coffeescript-snake/out;ditto fonts coffeescript-snake/fonts;rm -rf coffeescript-snake.zip;zip -rX coffeescript-snake.zip coffeescript-snake;rm -rf coffeescript-snake"
   },
   "dependencies": {
-    "angular": "^1.6.0",
+    "angular": "^1.6.6",
     "bootstrap": "^3.3.7",
-    "jquery": "^3.1.1"
+    "jquery": "^3.2.1"
   },
   "devDependencies": {
     "coffee-script": "^1.12.2",

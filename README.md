@@ -10,10 +10,14 @@ Implementation of snake written in [CoffeeScript](http://coffeescript.org/) usin
 * [NPM](https://www.npmjs.com/) - Package Manager
 
 ### Installing
-To download the needed node modules, run the following command:
+To install the project, run the following commands:
 
 ```
+git clone https://github.com/jimmynguyen/coffeescript-snake.git
+cd coffeescript-snake
 npm install
+npm install -g grunt
+npm install -g coffee-script
 ```
 
 ### Running the Application
