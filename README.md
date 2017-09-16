@@ -1,13 +1,23 @@
 # CoffeeScript Snake
 
-Implementation of snake written in [CoffeeScript](http://coffeescript.org/) using [AngularJS](https://angularjs.org/), [Bootstrap](http://getbootstrap.com/), and [jQuery](https://jquery.com/)
+Implementation of the video game **[Snake](https://en.wikipedia.org/wiki/Snake_%28video_game%29)** written in [CoffeeScript](http://coffeescript.org/) using [AngularJS](https://angularjs.org/), [Bootstrap](http://getbootstrap.com/), and [jQuery](https://jquery.com/)
 
 ## Getting Started
 
 ### Prerequisites
 
-* [Grunt](http://gruntjs.com/) - Task Runner
 * [NPM](https://www.npmjs.com/) - Package Manager
+	* Install NPM from [https://www.npmjs.com/](https://www.npmjs.com/)
+* [Grunt](http://gruntjs.com/) - Task Runner
+	* Once you have NPM installed, run the following command:
+		```
+		npm install -g grunt
+		```
+* [CoffeeScript](http://coffeescript.org/) - Programming Language
+	* Once you have NPM installed, run the following command:
+		```
+		npm install -g coffee-script
+		```
 
 ### Installing
 To install the project, run the following commands:
@@ -16,8 +26,6 @@ To install the project, run the following commands:
 git clone https://github.com/jimmynguyen/coffeescript-snake.git
 cd coffeescript-snake
 npm install
-npm install -g grunt
-npm install -g coffee-script
 ```
 
 ### Running the Application
