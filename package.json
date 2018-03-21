@@ -9,7 +9,7 @@
     "url": "https://github.com/jimmynguyen/coffeescript-snake.git"
   },
   "scripts": {
-    "build": "coffee -c Gruntfile.coffee && grunt",
+    "build": "grunt",
     "start": "open index.html",
     "zip": "mkdir coffeescript-snake;mkdir coffeescript-snake/out;ditto index.html coffeescript-snake/;ditto out/app.min.* coffeescript-snake/out;ditto fonts coffeescript-snake/fonts;rm -rf coffeescript-snake.zip;zip -rX coffeescript-snake.zip coffeescript-snake;rm -rf coffeescript-snake"
   },
