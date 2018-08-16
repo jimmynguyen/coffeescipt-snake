@@ -42,11 +42,10 @@ To open the application in a browser, run the following command (for OSX only):
 npm start
 ```
 
-To obtain a .zip of the bare minimum files needed to run the application, run the following command (for OSX only):
+To obtain a .zip of the bare minimum files needed to run the application, run the zip file for the respective environment:
 
-```
-npm run zip
-```
+* `zip.bat` (Windows)
+* `zip.sh` (MacOS)
 
 ## Built With
 
